@@ -1,0 +1,38 @@
+
+
+.p1 {
+
+    font-weight:bold;
+    font-size: 180%;
+    margin-left: 4%;
+}
+
+.p2 {
+
+    margin-left: 7%;
+}
+
+.tipoLetra{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.negrita{
+    font-weight:bold;
+}
+
+.tamañoH1{
+    font-size: 200%;
+}
+
+footer {
+    background-position: bottom;
+}
+
+form {
+    width: 40%;
+}
+
+input {
+    width: 50;
+}

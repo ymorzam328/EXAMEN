@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="exam2.css" />
+  </head>
+  <body>
+    <header>
+      <p class="p1 tipoLetra">petinder</p>
+    </header>
+    <nav>
+      <h1 class="tipoLetra tamañoH1">Hazte socio</h1>
+      <p class="tipoLetra">
+        Colabora con Petinder haciéndote socio por solo 15 euros mensuales. Con
+        muy poco puedes ayudar mucho a nuestros amigos peludos.Además puedes
+        comprar</p> 
+        <p class="tipoLetra">nuestra eclusiva camiseta por solo 10 euros que se añadirán al
+        primer pago. Rellena el siguiente formulario para unirte a nosotros.
+      </p>
+      </nav>
+
+      <article>
+      <form>
+        <fieldset>
+          <legend class="tipoLetra">Datos personales</legend>
+          <label class="tipoLetra negrita" for="nombre"> Nombre * </label>
+          <br></br>
+          <input
+            type="text"
+            id="nombre"
+            pattern="[a-zA-ZÑñÁÉÍÓUaéíóúª\s]+{20}"
+            maxlength="20"
+            placeholder="Nombre"
+            title="Debe escribir su nombre completo"
+          />
+          <br><br/>
+          <label class="tipoLetra negrita" for="apellido">Apellidos * </label>
+          <br></br>
+          <input
+            type="text"
+            id="apellido"
+            pattern="[a-zA-ZÑñÁÉÍÓUaéíóúª\s]+{20}"
+            maxlength="20"
+            placeholder="Apellidos"
+            title="Debe escribir su apellido."
+          />
+          <br></br>
+          <label class="tipoLetra negrita" for="correo"> Correo electrónico *</label>
+          <br></br>
+         <input
+            type="text"
+            id="correo"
+            pattern="[a-zA-ZÑñÁÉÍÓUaéíóúª-@[.]\s]+{25}"
+            maxlength="25"
+            placeholder="Correo electrónico"
+            title="Debe introducir su correo electrónico"
+          />
+          <br></br>
+          <label class="tipoLetra negrita" for="dni">DNI * </label>
+          <br></br>
+          <input
+              type="text"
+              id="dni"
+              pattern="[0-9]{8}[A-Za-z]{1}"
+              placeholder="DNI"
+              title="Debes escribir los 8 números de tu DNI y la letra final"
+            />
+            <br /><br />
+            
+            </fieldset>
+            <section>
+                <p class="p2">*Todos los campos marcados son obligatorios </p>
+                <p class="p2">He leído y acepto la política de privacidad y las condiciones de uso</p>
+            </section>
+            
+            <input class="p2" type="submit" />
+            </form>
+            </article>
+        <br></br>
+        <footer> 2021 @ Patinder - Nombre y apellidos del estudiante</footer>
+  </body>
+</html>

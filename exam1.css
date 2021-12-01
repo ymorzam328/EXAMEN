@@ -1,0 +1,30 @@
+
+ body{
+    background-color:wheat;
+    
+}
+
+table,tr,td{
+
+    border-collapse: separate black;
+
+}
+
+.conBorde {
+    border: 1px solid black;
+    
+
+}
+
+td {
+    width: 20%;
+    
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.separado {
+    letter-spacing: 5px;
+}
